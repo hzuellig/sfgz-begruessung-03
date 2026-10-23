@@ -1,4 +1,6 @@
 /* ===== 1 · Body, Seitenkopf, Seitenende: header, h1, footer ===== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 footer{
     position: fixed;
     bottom:0px;
@@ -6,6 +8,12 @@ footer{
     width:100%;
     display: flex;
     justify-content: center;
+}
+/* ===== Annas Abschnitt lol ===== */
+.gruss:lang(ru) {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    color: #c30c0c;
 }
 
 /* ===== 2 · Liste: .liste ===== */
