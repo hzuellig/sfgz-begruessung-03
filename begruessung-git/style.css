@@ -16,6 +16,18 @@ footer{
     color: #c30c0c;
 }
 
+.gruss:lang(fi) {
+    transition-property: all;
+    font-size: 30px;
+    color: #348bc9;
+
+}
+
+.group:hover .gruss:lang(fi) {
+    transform: translate(280px);
+    color: black;
+
+}
 /* ===== 2 · Liste: .liste ===== */
 
 /* ===== 3 · Eintrag: .gruss, .wort, .info, .notiz, .von ===== */
